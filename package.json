@@ -1,0 +1,23 @@
+{
+  "name": "react-node-test-main",
+  "version": "1.0.0",
+  "description": "1. Display time zone on top bar. 2. When create new Employee, display form validation message(under each field) instead of alert if some fields are empty 3. Add client button and modal. 4. Add client edit feature.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+  "server": "cd backend && npm start",
+  "client": "cd client && npm run dev"
+  },
+  
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "mongodb": "^6.17.0"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.0"
+  }
+}
