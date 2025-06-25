@@ -57,3 +57,5 @@ npm install --legacy-peer-deps
 
 Run the App (From the root directory) ->
 npm run dev
+
+After this command wait for some time for the resources to load on webpage.
